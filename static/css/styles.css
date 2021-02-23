@@ -53,3 +53,11 @@ button {
     padding: 20px;
     align-items: center;
 }
+
+.right-bottom {
+    position: fixed;
+    bottom: 0;
+    font-size: 11px;
+    text-align: center;
+    margin: 10px;
+}
