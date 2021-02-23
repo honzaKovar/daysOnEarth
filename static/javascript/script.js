@@ -34,7 +34,8 @@ function ageInDays() {
                 document.getElementById('result').innerHTML = 'Just kidding.';
             }, 3000);
             setTimeout(function() {
-                document.getElementById('result').innerHTML = 'You are ' + result.toString() + ' days old which makes you the oldest person ever. You are truly amazing!';
+                document.getElementById('result').innerHTML = 'You are ' + result.toString() + 
+                ' days old which makes you the oldest person ever. You are truly amazing!';
             }, 5000);
         }
     }
