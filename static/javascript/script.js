@@ -14,7 +14,7 @@ function ageInDays() {
 
     if ((day === '') || (month === '') || (year === '')) {
         document.getElementById('result').innerHTML = 'You have to fill in the full date of birth.';
-    } else if (year > currentDate.getFullYear()) {
+    } else if (dateOfBirth > currentDate) {
         document.getElementById('result').innerHTML = 'You can\'t be possibly that young!';
     } else if (isNaN(result) || isNaN(day) || isNaN(month) || isNaN(year)) {
         document.getElementById('result').innerHTML = 'Put in a proper date, dummy.';
